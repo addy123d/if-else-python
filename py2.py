@@ -30,7 +30,7 @@ fourth_subject = int(input("Enter Marks of fourth subject :"))
 
 if first_subject <= 100 and second_subject <= 100 and third_subject <= 100 and fourth_subject <= 100:
 
-    # Formula
+    # # Formula
     total = first_subject + second_subject + third_subject + fourth_subject
     percentage = (total/400) * 100
 
@@ -53,6 +53,7 @@ if first_subject <= 100 and second_subject <= 100 and third_subject <= 100 and f
     else:
         print("Needs to improve !" + " " + name)
 
+    pass
 
 else:
     print("You have entered something wrong !")
