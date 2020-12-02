@@ -1,12 +1,12 @@
 # Basic Calculator
-# import os
+import os
 
-# os.system("cls")
+os.system("cls")
 
-print(" Quick and Simple Calculator By Your Name ")
+print("\033[92m Quick and Simple Calculator By Your Name \033[00m")
 
-for i in range(0, 67):
-    print(" -", end="")
+for i in range(0, 40):
+    print("\033[93m -\033[00m", end="")
 print()
 
 
@@ -18,7 +18,7 @@ while condition == "Yes":
     number_1 = float(input("Enter 1st Number : "))
     number_2 = float(input("Enter 2nd Number : "))
 
-    for i in range(0, 67):
+    for i in range(0, 40):
         print(" -", end="")
     print()
 
